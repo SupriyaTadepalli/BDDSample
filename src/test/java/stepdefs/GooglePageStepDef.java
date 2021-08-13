@@ -36,6 +36,7 @@ public class GooglePageStepDef {
 		WebElement searchBox = driver.findElement(By.name("q"));
 		searchBox.sendKeys("Java Tutorial");
 		searchBox.sendKeys(Keys.ENTER);
+		system.out.println("updated in git");
 	}
 	
 
